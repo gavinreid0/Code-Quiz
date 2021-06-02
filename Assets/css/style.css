@@ -1,0 +1,168 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+}
+#container{
+    margin: 20px 40px;
+    background-color: white;
+}
+#highScoreHeader{
+    font-size: 1em;
+    font-style: italic;
+    Color: purple;
+    font-weight: normal;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#startHeader{
+    font-size: 1.5em;
+    font-weight: Bold;
+    padding: 0 20px;
+}
+#startText{
+    font-size: .5cm;
+    font-weight: normal;
+    padding: 20px;
+}
+.quizBtn{
+    font-size: small;
+    font-weight: bold;
+    width: auto;
+    height: 40px;
+    Color: white;
+    background-color: purple;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#startBtn:hover{
+    border: 3px solid purple;
+    background-color: white;
+    color :purple;
+}
+#question{
+    width:500px;
+    font-weight: bold;
+    height : 125px;
+    top:0;
+}
+.choices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choice{
+    text-align: left;
+    border : 1px solid grey;
+    background-color: purple;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+.choice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+#timer{
+    float: right;
+    height : 100px;
+    width : 200px;
+    text-align: center;
+}
+#counter{
+    font-size: 1.5em;
+}
+#btimeGauge{
+    width: auto;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    margin-top: 5px;
+    padding: 5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#lastQuestGrade{
+    color: gray;
+    padding-left: 10px;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    text-align: left;
+}
+#scoreContainer p{
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+#scoreHeader{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0 20px;
+}
+#highScorListeHeader{
+    font-size: 1em;
+    font-style: italic;
+    Color: purple;
+    font-weight: normal;
+    padding: 0 20px;
+}    
+#highScoreList{
+    font-size: 1em;
+    font-style: italic;
+    height: auto;
+    Color: black;
+    background-color: lightgrey;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: normal;
+    text-align: justify;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: lightgray;
+}
+ li {
+     height: 30px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     background-color: lightgray;
+     color: black;
+     font-size: large;
+     padding-Left: 10px;
+     padding-top: 5px;
+     line-height: 1.0;
+ }
+ li:before {
+     content:"\2008";
+     position: absolute;
+ }
+ li:after {
+     content: "";
+     display:block;
+     clear: both;
+ }
