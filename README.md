@@ -9,7 +9,7 @@
 ## Link to Application
 The code quiz is currently hosted by GitPages from a GitHub repository.
 
-[Click here to see the deployed application!]()
+[Click here to see the deployed application!](https://gavinreid0.github.io/Code-Quiz/)
 
 ## Usuage
 * 
